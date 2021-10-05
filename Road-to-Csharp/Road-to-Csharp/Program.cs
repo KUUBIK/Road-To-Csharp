@@ -1,4 +1,6 @@
 ﻿using System;
+using Codewars;
+using System.Linq;
 
 namespace Road_to_Csharp
 {
@@ -7,12 +9,9 @@ namespace Road_to_Csharp
         //Extension String methods
         static void Main(string[] args)
         {
-            string h = "Hello ";
-            string w = "World ";
-            Console.WriteLine(h + w);
-            string z = default;
-            z.NewExtReversedStringMethods(ref h, ref w);
-            Console.WriteLine(h + w);
+            
+            
+
         }
     }
 
